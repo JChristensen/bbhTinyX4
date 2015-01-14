@@ -3,20 +3,22 @@ http://github.com/JChristensen/bbhTinyX4
 ReadMe file  
 Jack Christensen Jan 2015  
 
+![](https://raw.githubusercontent.com/JChristensen/bbhTinyX4/master/bbh1.jpg)
+
 ## Introduction ##
 
-The Breadboard Helper is the easiest way to breadboard an ATtiny24/44/84! This small board (1.2 in. x 1.3 in.) contains everything needed to run an ATtinyX4 microcontroller, including:
+ATtiny Breadboard Helpers are the easiest way to breadboard Atmel ATtiny24/44/84 and ATtiny25/45/85 micrcontrollers! These small boards contains everything needed to run an ATtiny microcontroller, including:
 - ICSP header
 - Filter and bypass capacitors
 - Reset button with pullup resistor
 - LED with current-limiting resistor
 
-The Breadboard Helper breaks out all the MCU's pins to a 12-pin header and also connects to the breadboard's power rails. Plug the Breadboard Helper into a breadboard, add power, connect a programmer, and the microcontroller is ready to go!
+The Breadboard Helper breaks out all the MCU's pins to a header and also connects to the breadboard's power rails. Plug the Breadboard Helper into a breadboard, add power, connect a programmer, and the microcontroller is ready to go!
 
 PC boards can be ordered [from OSH Park](https://www.oshpark.com/shared_projects/I1Z984Pi).  
 A Bill of Materials with Mouser part numbers is part of this repo.
 
-## Power Connection ##
+## Power Connection (see photos below)##
 
 A two-pin header connects the Breadboard Helper to the breadboard's power rails. This header should be soldered ***either*** into the position labeled **"a"** ***or*** into the position labeled **"b"**.
 
@@ -33,5 +35,5 @@ The LED is connected to Arduino pin 6 or PA4 (ADC4/USCK/SCL/T1/PCINT4).
 ## CC BY-SA ##
 "ATtinyX4 Breadboard Helper" by Jack Christensen is licensed under [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/).
 
-![](photo link)
+![](https://raw.githubusercontent.com/JChristensen/bbhTinyX4/master/bbh1.jpg)
   
